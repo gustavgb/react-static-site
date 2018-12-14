@@ -11,3 +11,5 @@ Modify or add files in **src/pages**. These are the main routes that will be com
 You should now able to visit *localhost:5000* where index.js (index.html) is served.
 
 If you wish to, feel free to complete my work 😎
+=======
+First stab at creating a static site generator for react
