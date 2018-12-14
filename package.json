@@ -1,0 +1,41 @@
+{
+  "name": "react-static-site",
+  "version": "0.0.1",
+  "description": "Gustav's Website",
+  "scripts": {
+    "start": "concurrently \"node ./compile.js --watch\" \"serve ./build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavgb/gustavgb.github.io.git"
+  },
+  "author": "Gustav Burchardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavgb/gustavgb.github.io/issues"
+  },
+  "homepage": "https://github.com/gustavgb/gustavgb.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "any-eval": "^1.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "^1.9.4",
+    "concurrently": "^4.1.0",
+    "css-loader": "^2.0.1",
+    "file-loader": "^2.0.0",
+    "fs-extra": "^7.0.1",
+    "inline-css-webpack-loader": "^1.0.4",
+    "isomorphic-style-loader": "^4.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "serve": "^10.1.1",
+    "style-loader": "^0.23.1",
+    "styled-components": "^4.1.2",
+    "webpack": "^4.27.1",
+    "webpack-glob-entry": "^2.1.1"
+  }
+}
